@@ -5,6 +5,10 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
+  tls:
+    - secretName: automation-challenge-cgi-com-tls
+      hosts: 
+        - automation-challenge.cgi.com
   rules:
     - host: automation-challenge.cgi.com
       http:
