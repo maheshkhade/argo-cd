@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - env:
-        image: kirantest:latest
-        imagePullPolicy: Never
+        image: maheshkhade8600/nginx-hello:latest
+        imagePullPolicy: Always
         name: blog
         ports:
         - containerPort: 80
