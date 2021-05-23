@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - env:
-        image: maheshkhade8600/nginx-hello:0.0.1
+        image: maheshkhade8600/nginx-hello:0.0.2
         imagePullPolicy: Always
         name: blog
         ports:
